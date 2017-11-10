@@ -1,0 +1,23 @@
+{
+  "name": "kehs-log-server",
+  "version": "0.0.1",
+  "description": "Log server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "log",
+    "server"
+  ],
+  "author": "Graham Thomas",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "massive": "^2.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.8.2"
+  }
+}
